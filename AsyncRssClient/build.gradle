@@ -6,7 +6,31 @@ buildscript {
         classpath 'com.android.tools.build:gradle:0.5.+'
     }
 }
-apply plugin: 'android'
+
+if (!hasProperty('env')) {
+    env = System.env['GRADLE_ENV'] ?: 'development'
+}
+
+switch (env) {
+    case 'development':
+        apply plugin: 'android'
+        break
+    case 'release':
+        apply plugin: 'android-library'
+        apply plugin: 'maven'
+
+        uploadArchives {
+            repositories {
+                mavenDeployer {
+                    repository url: "file://${projectDir}/repository"
+                    pom.groupId = 'rejasupotaro'
+                    pom.artifactId = 'async-rss-client'
+                    pom.version = '0.0.1'
+                }
+            }
+        }
+        break
+}
 
 repositories {
     mavenCentral()

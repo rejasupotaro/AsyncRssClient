@@ -4,6 +4,7 @@ import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
 import org.apache.http.Header;
+import org.apache.http.protocol.HTTP;
 
 import rejasupotaro.asyncrssclient.models.RssFeed;
 
@@ -18,7 +19,7 @@ public class AsyncRssClient {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
                 try {
-                    RssFeed rssFeed = mHandler.parse(responseBody.toString());
+                    RssFeed rssFeed = mHandler.parse(new String(responseBody, HTTP.UTF_8));
                     handler.onSuccess(rssFeed);
                 } catch (Exception error) {
                     handler.onFailure(statusCode, headers, responseBody, error);

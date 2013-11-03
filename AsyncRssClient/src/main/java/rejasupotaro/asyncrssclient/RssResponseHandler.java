@@ -1,5 +1,6 @@
 package rejasupotaro.asyncrssclient;
 
+import org.apache.http.protocol.HTTP;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
@@ -23,7 +24,7 @@ public class RssResponseHandler {
 
         xmlReader.setContentHandler(handler);
         InputSource source = new InputSource(
-                new ByteArrayInputStream(responseBody.getBytes("utf-8")));
+                new ByteArrayInputStream(responseBody.getBytes(HTTP.UTF_8)));
         xmlReader.parse(source);
 
         return handler.getRssFeed();

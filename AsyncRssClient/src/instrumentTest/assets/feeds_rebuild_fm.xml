@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~files/feed-premium.xsl"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>Rebuild</title>
+        <description>ウェブ開発、プログラミング、モバイル、ガジェットなどにフォーカスしたテクノロジー系ポッドキャストです。</description>
+        <generator>Jekyll</generator>
+        <link>http://rebuild.fm</link>
+        <atom:link href="http://feeds.rebuild.fm/rebuildfm" rel="self" type="application/rss+xml"/>
+        <media:thumbnail url="http://rebuild.fm/images/icon240.png"/>
+        <media:keywords>tech,technology,programming,perl,ruby,mobile,web,miyagawa,apple,google,android,development,software</media:keywords>
+        <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
+        <itunes:author>Tatsuhiko Miyagawa</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="http://rebuild.fm/images/icon1400.jpg"/>
+        <itunes:keywords>tech,technology,programming,perl,ruby,mobile,web,miyagawa,apple,google,android,development,software</itunes:keywords>
+        <itunes:subtitle>A Podcast by Tatsuhiko Miyagawa. Talking about Tech, Software Development and Gadgets.</itunes:subtitle>
+        <itunes:summary>ウェブ開発、プログラミング、モバイル、ガジェットなどにフォーカスしたテクノロジー系ポッドキャストです。</itunes:summary>
+        <itunes:category text="Technology"/>
+        <itunes:owner>
+            <itunes:name>Tatsuhiko Miyagawa</itunes:name>
+            <itunes:email>miyagawa@bulknews.net</itunes:email>
+        </itunes:owner>
+        <language>ja</language>
+
+        <item>
+            <title>24: Go, Mavericks, LinkedIn Intro (typester)</title>
+            <description>&lt;p&gt;Daisuke Muraseさん (&lt;a href="https://twitter.com/typester"&gt;@typester&lt;/a&gt;) をゲストに迎えて、Go,  OS X Mavericks, Safari Notifications, LinkedIn Intro, Tweetbot などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="https://toolbelt.heroku.com/"&gt;Heroku Toolbelt&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/heroku/hk"&gt;Heroku Client in Go&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://dave.cheney.net/2012/09/08/an-introduction-to-cross-compilation-with-go"&gt;Cross compilation with Go&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/mattn/gom"&gt;mattn/gom&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/rosylilly/gondler"&gt;rosylilly/gondler&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://qiita.com/advent-calendar/2013/go/participants"&gt;Go Advent Calendar 2013&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://arstechnica.com/apple/2013/10/os-x-10-9/"&gt;OS X Mavericks Review&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://developer.apple.com/notifications/safari-push-notifications/"&gt;Safari Push Notifications&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios"&gt;LinkedIn Intro: Doing the impossible with iOS&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.marco.org/2013/10/25/linkedin-intro-insecurity"&gt;LinkedIn Intro&amp;#39;s security nightmare&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theverge.com/2013/10/24/4987422/tweetbot-3-for-iphone-app"&gt;Tweebot 3 is a paid upgrade&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://lifehacker.com/bypass-falcon-pros-twitter-token-limit-with-this-chea-754679503"&gt;Falcon Pro&amp;#39;s Twitter Token Limit&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://unknownplace.org/archives/start-new-company.html"&gt;unknownplace.org:独立しました&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://im.kayac.com/"&gt;im.kayac.com&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Thu, 31 Oct 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/24/</link>
+            <guid isPermaLink="true">http://rebuild.fm/24/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>Daisuke Muraseさん (@typester) をゲストに迎えて、Go,  OS X Mavericks, Safari Notifications, LinkedIn Intro, Tweetbot などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>Daisuke Muraseさん (@typester) をゲストに迎えて、Go,  OS X Mavericks, Safari Notifications, LinkedIn Intro, Tweetbot などについて話しました。
+            </itunes:summary>
+            <itunes:duration>51:34</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/5437/podcast-ep24.mp3" type="audio/mpeg" length="25199886"/>
+
+        </item>
+
+        <item>
+            <title>23: iPad, Mavericks and Macbook Pro (Kenn Ejima, Hakuro Matsuda)</title>
+            <description>&lt;p&gt;Kenn Ejimaさん (&lt;a href="https://twitter.com/kenn"&gt;@kenn&lt;/a&gt;), Hakuro Matsudaさん (&lt;a href="https://twitter.com/hak"&gt;@hak&lt;/a&gt;) をゲストに迎えて、iPad, OS X Mavericks, Macbook Pro などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.apple.com/apple-events/october-2013/"&gt;Apple Special Event October 2013&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theverge.com/2013/10/23/4867502/why-would-anyone-buy-an-ipad-2"&gt;Why would anyone buy an iPad 2 now?&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.apple.com/ipad/compare/"&gt;Apple iPad Compare iPads&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://squareup.com/stand"&gt;Square Stand&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://itunes.apple.com/us/app/status-board/id449955536?mt=8"&gt;Status Board&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theverge.com/2013/10/23/4947704/t-mobile-makes-free-ipad-data-offer-official"&gt;T-Mobile makes tablet data free&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.macrumors.com/2013/10/23/13-inch-2013-macbook-air-gets-up-to-15-hours-of-battery-life-with-mavericks/"&gt;2013 Macbook Air Gets 15 hours of Battery Life with Mavericks&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://news.cnet.com/8301-13579_3-57608550-37/apple-makes-ilife-iwork-free-with-new-ios-or-mac-purchase/"&gt;Apple makes iLife, iWork free with new iOS or Mac purchase&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.apple.com/macbook-pro/"&gt;Apple Macbook Pro&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.apple.com/logic-pro/"&gt;Logic Pro X&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theverge.com/2013/10/22/4867386/apple-releases-ios-7-0-3-update"&gt;iOS 7.0.3 released with cures for motion sickness&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Thu, 24 Oct 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/23/</link>
+            <guid isPermaLink="true">http://rebuild.fm/23/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>Kenn Ejimaさん (@kenn), Hakuro Matsudaさん (@hak) をゲストに迎えて、iPad, OS X Mavericks, Macbook Pro などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>Kenn Ejimaさん (@kenn), Hakuro Matsudaさん (@hak) をゲストに迎えて、iPad, OS X Mavericks, Macbook Pro などについて話しました。
+            </itunes:summary>
+            <itunes:duration>58:23</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/4963/podcast-ep23.mp3" type="audio/mpeg" length="28471043"/>
+
+        </item>
+
+        <item>
+            <title>22: The Weird Gadgets: Qi, Google and SONY (drikin)</title>
+            <description>&lt;p&gt;drikin (&lt;a href="https://twitter.com/drikin"&gt;@drikin&lt;/a&gt;) をゲストに迎えて、Qi充電、Chromebook, QX-100 などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://weblog.bulknews.net/post/62842510902/wireless-charging-now-becomes-real"&gt;Wireless Charging now becomes real&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.amazon.co.jp/dp/B00DZFHDGG/bulknews-22?ie=UTF8&amp;amp;qid=1380666636&amp;amp;sr=8-1&amp;amp;keywords=ravpower+qi"&gt;RAVPower Qi 2-in-1&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blog.drikin.com/2013/09/iphone-5sqi.html"&gt;iPhone 5sを無線充電Qi対応にするケースで失敗した件&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theverge.com/2013/10/1/4791848/wireless-charging-war-qualcomm-power-matters-alliance"&gt;Qualcomm joins Power Matters Alliance&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.google.com/intl/en/chrome/devices/hp-chromebook-11/"&gt;HP Chromebook 11&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=ja"&gt;Secure Shell Chrome extension&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theverge.com/2013/9/29/4783132/the-amazing-products-of-weird-sony"&gt;The Amazing Products of Weird SONY&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blog.drikin.com/2013/09/qx-100-1.html"&gt;ソニーの新発想レンズカメラ QX-100&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.engadget.com/2013/09/25/sony-qx100-lens-camera/"&gt;Sony&amp;#39;s QX100 is fantastic, impractical&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.sony.co.jp/SonyInfo/News/Press/201309/13-109/"&gt;ソニー Camera Remote API&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Fri, 11 Oct 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/22/</link>
+            <guid isPermaLink="true">http://rebuild.fm/22/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>drikin (@drikin) をゲストに迎えて、Qi充電、Chromebook, QX-100 などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>drikin (@drikin) をゲストに迎えて、Qi充電、Chromebook, QX-100 などについて話しました。
+            </itunes:summary>
+            <itunes:duration>44:25</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/3380/podcast-ep22.mp3" type="audio/mpeg" length="21767605"/>
+
+        </item>
+
+        <item>
+            <title>21: On the Launch of iPhone 5s and iOS 7 (Naoya Ito)</title>
+            <description>&lt;p&gt;Naoya Ito さん (&lt;a href="https://twitter.com/naoya_ito"&gt;@naoya_ito&lt;/a&gt;) をゲストに迎えて、iPhone 5s, iOS 7などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://techcrunch.com/2013/09/20/apples-iphone-5s-and-5c-launch-draws-big-crowds-including-biggest-ever-line-at-nyc-flagship-store/"&gt;iPhone 5s and 5c Launch&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://developer.apple.com/library/ios/documentation/CoreBluetooth/Reference/AppleNotificationCenterServiceSpecification/Introduction/Introduction.html"&gt;Apple Notification Center Service&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://developer.apple.com/library/ios/documentation/cocoa/reference/foundation/Classes/NSAttributedString_Class/Reference/Reference.html"&gt;NSAttributedString&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://developer.apple.com/news/?id=9182013a"&gt;Apple: Managing Availability of Your Apps&amp;#39; Previous Versions&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://mixpanel.com/trends/#report/ios_7"&gt;MixPanel iOS 7 upgrade report&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.macworld.com/article/2048947/itunes-11-1-brings-itunes-radio-genius-shuffle-podcast-stations-more.html"&gt;iTunes 11.1 ships with Podcast stations&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Sun, 22 Sep 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/21/</link>
+            <guid isPermaLink="true">http://rebuild.fm/21/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>Naoya Ito さん (@naoya_ito) をゲストに迎えて、iPhone 5s, iOS 7などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>Naoya Ito さん (@naoya_ito) をゲストに迎えて、iPhone 5s, iOS 7などについて話しました。
+            </itunes:summary>
+            <itunes:duration>20:19</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/2575/podcast-ep21.mp3" type="audio/mpeg" length="10198286"/>
+
+        </item>
+
+        <item>
+            <title>20: iPhone 5s (Kenn Ejima, Hakuro Matsuda)</title>
+            <description>&lt;p&gt;Kenn Ejima さん (&lt;a href="https://twitter.com/kenn"&gt;@kenn&lt;/a&gt;), Hakuro Matsuda さん (&lt;a href="https://twitter.com/hak"&gt;@hak&lt;/a&gt;) をゲストに迎えて、iPhone 5c, 5s, A7, Touch ID について話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.apple.com/apple-events/september-2013/"&gt;Apple Special Event&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.apple.com/iphone/"&gt;Apple iPhone 5c/5s&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://daringfireball.net/2013/09/iphone_5c_5c_event"&gt;Thoughts and Observations on Today&amp;#39;s iPhone 5C and 5S Introduction&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://news.cnet.com/8301-1035_3-57602372-94/the-real-reasons-apples-64-bit-a7-chip-makes-sense/"&gt;The real reasons Apple&amp;#39;s 64-bit A7 chip makes sense&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theverge.com/2013/9/10/4714814/apple-iphone-5s-camera-specs"&gt;iPhone 5s camera specs&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.macworld.com/article/2048514/the-iphone-5s-fingerprint-reader-what-you-need-to-know.html"&gt;iPhone 5s fingerprint reader&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.nytimes.com/2013/09/10/business/the-border-is-a-back-door-for-us-device-searches.html"&gt;The Border Is a Back Door for US Device Searches&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Thu, 12 Sep 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/20/</link>
+            <guid isPermaLink="true">http://rebuild.fm/20/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>Kenn Ejima さん (@kenn), Hakuro Matsuda さん (@hak) をゲストに迎えて、iPhone 5c, 5s, A7, Touch ID について話しました。
+            </itunes:subtitle>
+            <itunes:summary>Kenn Ejima さん (@kenn), Hakuro Matsuda さん (@hak) をゲストに迎えて、iPhone 5c, 5s, A7, Touch ID について話しました。
+            </itunes:summary>
+            <itunes:duration>52:03</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/2335/podcast-ep20.mp3" type="audio/mpeg" length="25428927"/>
+
+        </item>
+
+        <item>
+            <title>19: Accents, Git Workflow, Logging (sekimura)</title>
+            <description>&lt;p&gt;Masayoshi Sekimura さん (&lt;a href="https://twitter.com/sekimura"&gt;@sekimura&lt;/a&gt;) をゲストに迎えて、エンジニアの英語、Github Enterprise, Phabricator, Kibana などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.kitkat.com/"&gt;Android KitKat&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theverge.com/2013/9/3/4690744/kit-kat-mocks-apple-with-android-parody-video"&gt;KitKat mocks Apple with Android 4.4 Parody Video&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://twitter.com/NokiaUS/status/375418228622630912"&gt;Have a break. #KitKat&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://arstechnica.com/gadgets/2013/09/balky-carriers-and-slow-oems-step-aside-google-is-defragging-android/"&gt;Slow OEM step aside: Google is defragging Android&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://paulgraham.com/accents.html"&gt;Founder&amp;#39;s Accents&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.yamdas.org/column/technique/accentsj.html"&gt;創業者の訛り&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://volgarev.me/blog/60053519752"&gt;Why knowing English is important for every software developer&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://antirez.com/news/61"&gt;English has been my pain for 15 years&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://ymotongpoo.hatenablog.com/entry/2013/09/04/180103"&gt;英語は私にとって15年にわたって悩みの種です&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://phabricator.org/"&gt;Phabricator&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.pivotaltracker.com/"&gt;Pivotal Tracker&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/cookpad/kage"&gt;cookpad/kage&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://three.kibana.org/"&gt;Kibana 3&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://exploringelasticsearch.com/book/elasticsearch-at-scale-interviews/interview-with-the-github-elasticsearch-team.html"&gt;Interview with the Github Elasticsearch team&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.splunk.com/"&gt;Splunk&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.slideshare.net/penguinana/solrelasticsearch"&gt;SolrとElasticSearchの比較&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.nintendo.co.jp/3ds/interview/streetpass_relay/vol1/index4.html"&gt;任天堂社長が訊く「すれ違い通信中継所」&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://aws.amazon.com/cloudsearch/"&gt;Amazon CloudSearch&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://karma-runner.github.io/0.10/index.html"&gt;Karma&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Fri, 06 Sep 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/19/</link>
+            <guid isPermaLink="true">http://rebuild.fm/19/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>Masayoshi Sekimura さん (@sekimura) をゲストに迎えて、エンジニアの英語、Github Enterprise, Phabricator, Kibana などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>Masayoshi Sekimura さん (@sekimura) をゲストに迎えて、エンジニアの英語、Github Enterprise, Phabricator, Kibana などについて話しました。
+            </itunes:summary>
+            <itunes:duration>53:36</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/2258/podcast-ep19.mp3" type="audio/mpeg" length="26177074"/>
+
+        </item>
+
+        <item>
+            <title>18: Las Vegas, Coworking, JOBS (Kenn Ejima)</title>
+            <description>&lt;p&gt;Kenn Ejima さん (&lt;a href="https://twitter.com/kenn"&gt;@kenn&lt;/a&gt;) をゲストに迎えて、ラスベガス、サンフランシスコ、Coworking, Apple, Microsoft などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://kenn.hatenablog.com/entry/2013/08/28/032353"&gt;ラスベガス生活がはじまって&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.huffingtonpost.com/2013/08/20/coffee-shop-wireless-ban_n_3786622.html"&gt;Coffee Shop Limited Wireless&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://areyouabrogrammer.com/"&gt;Are You A Brogrammer&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://tomdale.net/2013/07/san-francisco-i-love-you-but-youre-bringing-me-down/"&gt;San Francisco, I Love You But You&amp;#39;re Bringing Me Down&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blog.sfgate.com/techchron/2013/07/30/rideshare-drivers-cite-at-sfo-for-trespassing/"&gt;Rideshare drivers cited at SFO for trespassing&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://jobsthefilm.com/"&gt;JOBS&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theguardian.com/film/filmblog/2013/aug/21/ashton-kucher-steve-wozniak-jobs-biopic"&gt;Ashton Kutcher and Wozniak at odds over Jobs biopic&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://collider.com/steve-wozniak-steve-jobs-movie-aaron-sorkin/"&gt;Aaron Sorkin hired Steve Wozniak as a Consultant&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.microsoft.com/en-us/news/press/2013/aug13/08-23announcementpr.aspx"&gt;MS CEO Steve Ballmer to retire within 12 months&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://kotaku.com/microsofts-adam-orth-the-always-on-tweeter-no-long-472244698"&gt;Microsoft&amp;#39;s Adam Orth, The &amp;quot;Always-On&amp;quot; Tweeter, No Longer With The Company&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://bits.blogs.nytimes.com/2013/07/01/xbox-chief-is-leaving-microsoft/?_r=0"&gt;Zynga Hires Xbox Boss to Initiate Turnaround&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://venturebeat.com/2013/08/24/iphone-5c-captured-in-high-def-video-red-yellow-green-blue-white/"&gt;iPhone 5C captured in HD video&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.engadget.com/2013/08/27/nexus-4-8gb-price-drops-to-199/"&gt;Nexus 4 price drop by $100&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://sportsbeta.ladbrokes.com/Specials/Microsoft-Specials/Next-Microsoft-CEO-N-1z0z7huZ1z0z1etZ1z0ys9q/"&gt;Next Microsoft CEO&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.bloomberg.com/news/2013-08-22/yahoo-tops-google-in-u-s-for-web-traffic-in-july-comscore-says.html"&gt;Yahoo! Tops Google for US Web Traffic&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://lifehacker.com/apple-tv-update-breaks-plexconnect-but-you-can-bring-i-1214467689"&gt;Apple TV update Breaks PlexConnect&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theverge.com/2013/8/25/4657202/google-blocks-chromecast-app-that-let-you-stream-own-videos"&gt;Google blocks Chromecast app&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Fri, 30 Aug 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/18/</link>
+            <guid isPermaLink="true">http://rebuild.fm/18/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>Kenn Ejima さん (@kenn) をゲストに迎えて、ラスベガス、サンフランシスコ、Coworking, Apple, Microsoft などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>Kenn Ejima さん (@kenn) をゲストに迎えて、ラスベガス、サンフランシスコ、Coworking, Apple, Microsoft などについて話しました。
+            </itunes:summary>
+            <itunes:duration>43:55</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/2172/podcast-ep18.mp3" type="audio/mpeg" length="21524980"/>
+
+        </item>
+
+        <item>
+            <title>17: Carton, YAPC and Perl 6 (tokuhirom)</title>
+            <description>&lt;p&gt;Tokuhiro Matsunoさん (&lt;a href="https://twitter.com/tokuhirom"&gt;@tokuhirom&lt;/a&gt;) をゲストに迎えて、Carton 1.0 リリース、YAPC::Asia, Perl 6 などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://weblog.bulknews.net/post/57356232719/carton-1-0-is-released"&gt;Carton 1.0 is released&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://speakerdeck.com/miyagawa/carton-1-dot-0-at-oscon-2013"&gt;Carton at OSCON 2013&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blog.64p.org/entry/2013/08/06/112350"&gt;Carton 1.0 時代の Web アプリケーション開発フロー&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/rejeep/cask.el"&gt;cask.el&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://peatix.com/event/11775"&gt;YAPC::Asia 2013 tickets&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://miyagawa.github.io/yapcasia2013/"&gt;YAPC::Asia Mobile schedule&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blog.64p.org/entry/2013/06/08/124125"&gt;Future Perl - YAPC::NA 2013 に参加して&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://6guts.wordpress.com/2013/05/31/moarvm-a-virtual-machine-for-nqp-and-rakudo/"&gt;MoarVM: A VM for NQP and Rakudo&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/tokuhirom/pvip"&gt;tokuhirom/pvip&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/perl6/roast"&gt;Perl6 Roast&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://rubyspec.org/"&gt;RubySpec&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/antirez/linenoise"&gt;linenoise&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/tokuhirom/Caroline"&gt;Caroline&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Fri, 09 Aug 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/17/</link>
+            <guid isPermaLink="true">http://rebuild.fm/17/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>Tokuhiro Matsunoさん (@tokuhirom) をゲストに迎えて、Carton 1.0 リリース、YAPC::Asia, Perl 6 などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>Tokuhiro Matsunoさん (@tokuhirom) をゲストに迎えて、Carton 1.0 リリース、YAPC::Asia, Perl 6 などについて話しました。
+            </itunes:summary>
+            <itunes:duration>48:51</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1500/podcast-ep17.mp3" type="audio/mpeg" length="28103318"/>
+
+        </item>
+
+        <item>
+            <title>16: Designing new Rebuild.fm (Naoya Ito, nagayama)</title>
+            <description>&lt;p&gt;伊藤直也さん (&lt;a href="https://twitter.com/naoya_ito"&gt;@naoya_ito&lt;/a&gt;)、長山武史さん (&lt;a href="https://twitter.com/nagayama"&gt;@nagayama&lt;/a&gt;) をゲストに迎えて、Rebuild.fm リニューアル, Middleman, Bootstrap, iOS アプリデザインなどについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://rebuild.fm"&gt;Rebuild.fm&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://yapcasia.org/2013/06/miyagawa-decal.html"&gt;miyagawa デカール&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://middlemanapp.com/"&gt;middleman&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://yeoman.io/"&gt;Yeoman&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://gruntjs.com/"&gt;Grunt&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://getbootstrap.com/"&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blog.getbootstrap.com/2013/07/27/bootstrap-3-rc1/"&gt;Bootstrap 3 RC1&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://fortawesome.github.io/Font-Awesome/"&gt;FontAwesome&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://feedpress.it/"&gt;FeedPress&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments"&gt;Task Lists in GFM&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://hbfav.bloghackers.net/"&gt;HBFav2&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://d.hatena.ne.jp/naoya/20130801/1375357430"&gt;HBFav2 をリリースしました&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://www.iconfinder.com/"&gt;Icon Finder&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.pixate.com/"&gt;Pixate&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://joshsymonds.com/blog/2013/06/26/why-im-not-using-rubymotion-in-production/"&gt;Why I&amp;#39;m Not Using RubyMotion in Production&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.quora.com/What-does-the-term-full-stack-programmer-mean"&gt;What does the term &amp;quot;full-stack programmer&amp;quot; mean?&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://iroirodesign.com/"&gt;いろいろデザイン&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://yapcasia.org/2013/talk/show/c6b08f02-f293-11e2-ba15-895a6aeab6a4"&gt;YAPC::Asia Rubyの良いところ語ってください&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://itunes.apple.com/us/app/pdx-bus-max-streetcar-and-wes/id289814055?mt=8"&gt;PDX Bus&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Thu, 01 Aug 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/16/</link>
+            <guid isPermaLink="true">http://rebuild.fm/16/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>伊藤直也さん (@naoya_ito)、長山武史さん (@nagayama) をゲストに迎えて、Rebuild.fm リニューアル, Middleman, Bootstrap, iOS アプリデザインなどについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>伊藤直也さん (@naoya_ito)、長山武史さん (@nagayama) をゲストに迎えて、Rebuild.fm リニューアル, Middleman, Bootstrap, iOS アプリデザインなどについて話しました。
+            </itunes:summary>
+            <itunes:duration>46:11</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1400/podcast-ep16.mp3" type="audio/mpeg" length="27049642"/>
+
+        </item>
+
+        <item>
+            <title>15: After Google Reader, DIY Blogging, The Go language (typester)</title>
+            <description>&lt;p&gt;村瀬大輔さん (&lt;a href="https://twitter.com/typester"&gt;@typester&lt;/a&gt;) をゲストに迎えて、RSS リーダー, blosxom, Jekyll, Go などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.feedly.com/"&gt;Feedly&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://reader.livedoor.com/"&gt;livedoor Reader&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://ifttt.com"&gt;IFTTT&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://getpocket.com"&gt;Pocket&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://googledevelopers.blogspot.com/2013/07/pubsubhubbub-feeds-and-feed-api.html"&gt;PubSubHubbub, Feeds and Feed API&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blosxom.sourceforge.net/"&gt;blosxom&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://unknownplace.org/archives/blosxom-and-this-site.html"&gt;unknownplace.org このサイトのBlosxomの構成&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/laurilehmijoki/s3_website"&gt;s3_website&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/movabletype/Documentation/wiki/PSGI-Plack%E7%92%B0%E5%A2%83%E3%81%A7Movable-Type%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99"&gt;Movable Type on PSGI&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://golang.org/"&gt;The Go Programming Language&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blog.disqus.com/post/51155103801/trying-out-this-go-thing"&gt;Trying out this Go thing - DISQUS&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://unknownplace.org/archives/golang-editing-with-emacs.html"&gt;EmacsでのGo言語編集環境&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://tour.golang.org/"&gt;A Tour of Go&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://lingr.com/room/golang"&gt;lingr/golang&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Sun, 07 Jul 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/15/</link>
+            <guid isPermaLink="true">http://rebuild.fm/15/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>村瀬大輔さん (@typester) をゲストに迎えて、RSS リーダー, blosxom, Jekyll, Go などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>村瀬大輔さん (@typester) をゲストに迎えて、RSS リーダー, blosxom, Jekyll, Go などについて話しました。
+            </itunes:summary>
+            <itunes:duration>40:20</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1376/podcast-ep15.mp3" type="audio/mpeg" length="24366248"/>
+
+        </item>
+
+        <item>
+            <title>14: DevOps with Docker, chef and serverspec (naoya, mizzy)</title>
+            <description>&lt;p&gt;伊藤直也さん (&lt;a href="https://twitter.com/naoya_ito"&gt;@naoya_ito&lt;/a&gt;), 宮下剛輔さん (&lt;a href="https://twitter.com/gosukenator"&gt;@gosukenator&lt;/a&gt;) をゲストに迎えて、Docker, chef, serverspec, Travis CI, Vagrant, サーバプロビジョニング、テスト などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.docker.io/"&gt;Docker&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://lxc.sourceforge.net/"&gt;LXC Linux Containers&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Aufs"&gt;aufs&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.slideshare.net/mizzy/inside-sqales-backend-at-sapporo-ruby-kaigi-2012"&gt;Inside Sqale backend&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://devcenter.heroku.com/articles/cedar"&gt;Heroku Cedar Stack&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://progrium.com/blog/2013/06/19/dokku-the-smallest-paas-implementation-youve-ever-seen/"&gt;Dokku&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://devcenter.heroku.com/articles/buildpacks"&gt;Heroku Buildpacks&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://docs.docker.io/en/latest/use/builder/"&gt;Dockerfile&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/miyagawa/docker-plenv-vanilla"&gt;miyagawa/docker-plenv-vanilla&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.vagrantup.com/"&gt;Vagrant&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://serverspec.org/"&gt;serverspec&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://foodfightshow.org/"&gt;Food fight show&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://shop.oreilly.com/product/0636920030973.do"&gt;Test-Driven infrastrcture with Chef&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.opscode.com/blog/2012/08/17/announcing-test-kitchen/"&gt;Test Kitchen&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/ansible/ansible"&gt;ansible&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/kenn/sunzi"&gt;sunzi&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.cloudfoundry.com/"&gt;CloudFoundry&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://colabv6.dan.co.jp/lleval.html"&gt;lleval&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/r7kamura/autodoc"&gt;autodoc&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.amazon.co.jp/dp/4774157198/bulknews-22"&gt;WEB+DB PRESS Vol.75&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Sat, 22 Jun 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/14/</link>
+            <guid isPermaLink="true">http://rebuild.fm/14/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>伊藤直也さん (@naoya_ito), 宮下剛輔さん (@gosukenator) をゲストに迎えて、Docker, chef, serverspec, Travis CI, Vagrant, サーバプロビジョニング、テスト などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>伊藤直也さん (@naoya_ito), 宮下剛輔さん (@gosukenator) をゲストに迎えて、Docker, chef, serverspec, Travis CI, Vagrant, サーバプロビジョニング、テスト などについて話しました。
+            </itunes:summary>
+            <itunes:duration>1:02:13</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1377/podcast-ep14.mp3" type="audio/mpeg" length="36048059"/>
+
+        </item>
+
+        <item>
+            <title>13: WWDC 2013 (Kenn Ejima, Hakuro Matsuda)</title>
+            <description>&lt;p&gt;Kenn Ejima さん (&lt;a href="https://twitter.com/kenn"&gt;@kenn&lt;/a&gt;), Hakuro Matsuda さん
+                (&lt;a href="https://twitter.com/hak"&gt;@hak&lt;/a&gt;) をゲストに迎えて、Apple WWDC 2013 Keynote, iOS 7, OS X
+                Mavericks, Mac Pro, Macbook Air などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.apple.com/apple-events/june-2013/"&gt;Apple WWDC 2013 Keynote&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://allthingsd.com/20130529/apples-tim-cook-the-full-d11-interview-video/"&gt;Tim Cook Interview at All Things D&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.apple.com/ios/ios7/"&gt;iOS 7&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.apple.com/osx/preview/"&gt;OS X Mavericks&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://old-releases.ubuntu.com/releases/maverick/"&gt;Ubuntu Maverick&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://arstechnica.com/apple/2013/06/new-haswell-based-macbook-airs-offer-faster-graphics-all-day-battery-life/"&gt;New Haswell-based Macbook Airs offer faster graphics, all-day battery life&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://techcrunch.com/2013/06/06/report-nsa-collects-data-directly-from-servers-of-google-apple-microsoft-facebook-and-more/"&gt;NSA Collects Data Directly From Servers of Google, Apple etc.&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.apple.com/mac-pro/"&gt;Mac Pro&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.amazon.co.jp/dp/B0018NRM9U/bulknews-22"&gt;ideaco New TUBELOR ゴミ箱&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://twitter.com/gruber/status/344179342764568577"&gt;If you don&amp;#39;t think iOS 7 is beautiful, I don&amp;#39;t know what to say to you.&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Tue, 11 Jun 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/13/</link>
+            <guid isPermaLink="true">http://rebuild.fm/13/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>Kenn Ejima さん (@kenn), Hakuro Matsuda さん
+                (@hak) をゲストに迎えて、Apple WWDC 2013 Keynote, iOS 7, OS X
+                Mavericks, Mac Pro, Macbook Air などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>Kenn Ejima さん (@kenn), Hakuro Matsuda さん
+                (@hak) をゲストに迎えて、Apple WWDC 2013 Keynote, iOS 7, OS X
+                Mavericks, Mac Pro, Macbook Air などについて話しました。
+            </itunes:summary>
+            <itunes:duration>46:55</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1378/podcast-ep13.mp3" type="audio/mpeg" length="27599090"/>
+
+        </item>
+
+        <item>
+            <title>12: Perl 5.18, YAPC::Asia (lestrrat, tokuhirom)</title>
+            <description>&lt;p&gt;牧大輔さん (&lt;a href="https://twitter.com/lestrrat"&gt;@lestrrat&lt;/a&gt;), Tokuhiro Matsuno さん
+                (&lt;a href="https://twitter.com/tokuhirom"&gt;@tokuhirom&lt;/a&gt;) をゲストに迎えて、Perl 5.18, YAPC::Asia
+                などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.nntp.perl.org/group/perl.perl5.porters/2013/05/msg201940.html"&gt;Perl 5.18.0 is released&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1667"&gt;CVE-2013-1667 rehash flaw in Perl&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.nntp.perl.org/group/perl.perl5.porters/2013/05/msg202130.html"&gt;Deprecating CGI.pm in perl core&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://twitter.com/kraih/status/336362823712141312"&gt;Perl 5.18 has 10% performance gain with mojolicious apps&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/tokuhirom/plenv"&gt;plenv&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.yapcna.org/yn2013/"&gt;YAPC::NA&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://yapcasia.org/2013/"&gt;YAPC::Asia&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.atmarkit.co.jp/ait/articles/1305/21/news128.html"&gt;カンファレンスカンファレンス&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://yapcasia.org/2013/05/yapcasia-2013-venue.html"&gt;YAPC::Asia 会場&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Mon, 27 May 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/12/</link>
+            <guid isPermaLink="true">http://rebuild.fm/12/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>牧大輔さん (@lestrrat), Tokuhiro Matsuno さん
+                (@tokuhirom) をゲストに迎えて、Perl 5.18, YAPC::Asia
+                などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>牧大輔さん (@lestrrat), Tokuhiro Matsuno さん
+                (@tokuhirom) をゲストに迎えて、Perl 5.18, YAPC::Asia
+                などについて話しました。
+            </itunes:summary>
+            <itunes:duration>56:06</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1379/podcast-ep12.mp3" type="audio/mpeg" length="32341837"/>
+
+        </item>
+
+        <item>
+            <title>11: Google I/O 2013 (kenn, mootoh)</title>
+            <description>&lt;p&gt;Kenn Ejima さん (&lt;a href="https://twitter.com/kenn"&gt;@kenn&lt;/a&gt;), Motohiro Takayama さん
+                (&lt;a href="https://twitter.com/mootoh"&gt;@mootoh&lt;/a&gt;) をゲストに迎えて、Google I/O, Google Glass, Google
+                Play Game Services などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="https://developers.google.com/events/io/"&gt;Google I/O&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theverge.com/2013/5/15/4334634/best-of-googles-i-o-2013-keynote-hangouts-google-galaxy-s4"&gt;The best of Google I/O 2013 keynote&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.forbes.com/sites/roberthof/2013/05/16/google-reveals-how-to-hack-google-glass-device-and-void-your-warranty/"&gt;Google Reveals How to Hack Google Glass Device&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theverge.com/2013/5/16/4338418/glass-privacy-fireside-chat-google-io-2013"&gt;Google on Glass Privacy&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://itunes.apple.com/app/id643496868?mt=8"&gt;Hangouts for iOS&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.engadget.com/2013/05/14/microsoft-adds-google-talk-to-outlook-dot-com-skydrive/"&gt;Microsoft adds built-in Google Talk to Outlook&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.theverge.com/2013/5/15/4318830/inside-hangouts-googles-big-fix-for-its-messaging-mess"&gt;Hangouts do not support XMPP&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://googleappsdeveloper.blogspot.com/2013/05/introducing-actions-in-inbox-powered-by.html"&gt;Gmail Actions in the Inbox&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://developer.android.com/sdk/installing/studio.html"&gt;Android Studio&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://gengo.com/"&gt;gengo - Translation Service&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.rdio.com/"&gt;Rdio&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://www.everpix.com/"&gt;everpix&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://developers.google.com/games/services/"&gt;Google Play Game Services&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Fri, 17 May 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/11/</link>
+            <guid isPermaLink="true">http://rebuild.fm/11/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>Kenn Ejima さん (@kenn), Motohiro Takayama さん
+                (@mootoh) をゲストに迎えて、Google I/O, Google Glass, Google
+                Play Game Services などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>Kenn Ejima さん (@kenn), Motohiro Takayama さん
+                (@mootoh) をゲストに迎えて、Google I/O, Google Glass, Google
+                Play Game Services などについて話しました。
+            </itunes:summary>
+            <itunes:duration>46:22</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1380/podcast-ep11.mp3" type="audio/mpeg" length="27232914"/>
+
+        </item>
+
+        <item>
+            <title>10: RailsConf, Ruby 2.0, Rails 4 (mrkn, r7kamura)</title>
+            <description>&lt;p&gt;Kenta Murataさん (&lt;a href="https://twitter.com/mrkn"&gt;@mrkn&lt;/a&gt;), Ryo Nakamuraさん
+                (&lt;a href="https://twitter.com/r7kamura"&gt;@r7kamura&lt;/a&gt;) をゲストに迎えて、RailsConf, Ruby 2.0, Rails 4,
+                Chanko 2.0, RubyKaigi, YAPC などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://railsconf.com/"&gt;RailsConf&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://martyhaught.com/articles/2013/05/03/blind-reviews-at-railsconf-2013/"&gt;Blind Reviews at RailsConf 2013&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://rubykaigi.org/2013/schedule"&gt;RubyKaigi 2013&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.justin.tv/confreaks/c/2246896"&gt;DHH keynote at RailsConf 2013&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://twitter.com/ruralocity/status/328922112221925377"&gt;Not sure if I should be offended by the Kansas barbs&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.youtube.com/watch?v=VOFTop3AMZ8"&gt;DHH RailsConf 2012 Keynote&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://twitter.com/rtomayko/status/286909814951522306"&gt;gist.github.com launched with Rails 4&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://railscasts.com/episodes/400-what-s-new-in-rails-4"&gt;What&amp;#39;s new in Rails 4.0&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://techlife.cookpad.com/2013/04/09/ruby200/"&gt;Cookpad の本番環境で使用している Ruby が 2.0.0-p0 になりました&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://blog.engineyard.com/2012/ruby-1-8-7-and-ree-end-of-life"&gt;Ruby 1.8.7 and REE End of Life&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/47201"&gt;Ruby 1.8.7 EOL expected this June&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://speakerdeck.com/mrkn/what-a-hard-work-to-make-the-recipe-sharing-service-available-on-ruby-1-dot-9-3"&gt;What a hard work to make the recipe sharing service available on Ruby 1.9.3!&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://bugs.ruby-lang.org/issues/7892"&gt;MIME encoding bug of NKF.nkf&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/rails/rails/issues/9813"&gt;Rails 3.2.13 default_scope breaks chained scopes&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/rails/strong_parameters"&gt;rails/strong_parameters&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://reed.github.io/turbolinks-compatibility/"&gt;Turbolinks Compatibility&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.exhilent.com/blog/android-new-ie-6"&gt;Android Is The New IE 6&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://cookpad.github.io/chanko/"&gt;Chanko: Rapidly &amp;amp; Safely prototyping your rails application&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://techlife.cookpad.com/2013/04/10/chanko200/"&gt;プロトタイプ開発用のRailsプラグイン「Chanko」を2.0.0にアップデートしました&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/haml/haml/pull/610"&gt;Use Erubis when available for faster startup&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://travis-ci.org/"&gt;Travis CI&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://coveralls.io/"&gt;Coveralls&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://codeclimate.com/"&gt;Code Climate&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://rubygems.org/gems/travis"&gt;rubygems travis&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://d.hatena.ne.jp/naoya/20130417/1366173359"&gt;Coveralls + Perl&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://yapcasia.org/"&gt;YAPC::Asia&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://info.cookpad.com/jobs/?affcd=dy24k"&gt;クックパッド採用情報&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://info.cookpad.com/24contest4"&gt;第４回 開発コンテスト24&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Sat, 11 May 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/10/</link>
+            <guid isPermaLink="true">http://rebuild.fm/10/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>Kenta Murataさん (@mrkn), Ryo Nakamuraさん
+                (@r7kamura) をゲストに迎えて、RailsConf, Ruby 2.0, Rails 4,
+                Chanko 2.0, RubyKaigi, YAPC などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>Kenta Murataさん (@mrkn), Ryo Nakamuraさん
+                (@r7kamura) をゲストに迎えて、RailsConf, Ruby 2.0, Rails 4,
+                Chanko 2.0, RubyKaigi, YAPC などについて話しました。
+            </itunes:summary>
+            <itunes:duration>47:42</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1381/podcast-ep10.mp3" type="audio/mpeg" length="28332605"/>
+
+        </item>
+
+        <item>
+            <title>9: Making your own keyboard (Jesse Vincent)</title>
+            <description>&lt;p&gt;Jesse Vincent (&lt;a href="https://twitter.com/obra"&gt;@obra&lt;/a&gt;) joins me to discuss his recent experiments to build his own keyboard.&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://osdc.tw/"&gt;OSDC.TW&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://speakerdeck.com/miyagawa/cpanm-1-dot-6-at-osdc-dot-tw"&gt;cpanm 1.6/1.7 at OSDC.TW&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.slideshare.net/obrajesse/2013-osdcmadeakeyboard"&gt;So I make a keyboard&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://kbtpure.com/kbtpure/kbc-poker-60-mechanical-keyboard-ansi-us-international.html"&gt;KBC Poker 60%&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.personal-media.co.jp/utronkb/"&gt;μTRON キーボード&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://ja.wikipedia.org/wiki/TRON%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88"&gt;TRON プロジェクト&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blog.fsck.com/2012/12/building-a-keyboard-part-2.html"&gt;Building a Keyboard: Part 2&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://tokyo.fabcafe.com/en/"&gt;FabCafe&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.slideshare.net/obrajesse/2013-osdcmadeakeyboard/114"&gt;Mark 6 keyboard Design&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://keyboard.io"&gt;Keyboard.IO&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Wed, 08 May 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/9/</link>
+            <guid isPermaLink="true">http://rebuild.fm/9/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>Jesse Vincent (@obra) joins me to discuss his recent experiments to build his own keyboard.
+            </itunes:subtitle>
+            <itunes:summary>Jesse Vincent (@obra) joins me to discuss his recent experiments to build his own keyboard.
+            </itunes:summary>
+            <itunes:duration>34:45</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1382/podcast-ep9.mp3" type="audio/mpeg" length="19881818"/>
+
+        </item>
+
+        <item>
+            <title>8: Screencasts, Pair Programming, English (伊藤直也 高林哲)</title>
+            <description>&lt;p&gt;伊藤直也さん (&lt;a href="https://twitter.com/naoya_ito"&gt;@naoya_ito&lt;/a&gt;) 高林哲さん
+                (&lt;a href="https://plus.google.com/101463981287086074128"&gt;bkノート&lt;/a&gt;)
+                をゲストに迎えて、日米キャリアパス、スクリーンキャスト、ペアプログラミング、エンジニアリング英語などについて話しました。&lt;/p&gt;
+
+                &lt;p&gt;スポンサー: &lt;a href="https://itunes.apple.com/app/listen-it/id512751653?ls=1&amp;amp;mt=8"&gt;Listen-IT&lt;/a&gt;&lt;/p&gt;
+
+                &lt;p&gt;（収録機材の不調で、一部聴きづらい箇所があるかもしれません）&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://railscasts.com/"&gt;Railscasts&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://weblog.bulknews.net/post/46471116934/introducing-milla"&gt;Milla screencast&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://dotinstall.com/"&gt;ドットインストール&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.listen-it.com/"&gt;Listen-IT&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://0xcc.net/blog/archives/000171.html"&gt;hogeの話&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Tue, 16 Apr 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/8/</link>
+            <guid isPermaLink="true">http://rebuild.fm/8/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>伊藤直也さん (@naoya_ito) 高林哲さん
+                (bkノート)
+                をゲストに迎えて、日米キャリアパス、スクリーンキャスト、ペアプログラミング、エンジニアリング英語などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>伊藤直也さん (@naoya_ito) 高林哲さん
+                (bkノート)
+                をゲストに迎えて、日米キャリアパス、スクリーンキャスト、ペアプログラミング、エンジニアリング英語などについて話しました。
+            </itunes:summary>
+            <itunes:duration>26:50</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1383/podcast-ep8.mp3" type="audio/mpeg" length="13931382"/>
+
+        </item>
+
+        <item>
+            <title>7: Perl Community, YAPC (yusukebe)</title>
+            <description>&lt;p&gt;和田裕介さん (&lt;a href="https://twitter.com/yusukebe"&gt;@yusukebe&lt;/a&gt;) をゲストに迎えて、Perl
+                プログラミング、フレームワーク、モジュール開発、YAPC などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://shibuya.pm.org"&gt;Shibuya.pm&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://yusukebe.com/archives/20130330/105031.html"&gt;Perl Casual&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.oreilly.co.jp/books/4873111749/"&gt;Blog Hacks&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://plagger.bulknews.net/trac"&gt;Plagger&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://yusukebe.com/archives/20061203/220402.html"&gt;PlaggerとCatalystでCDTVならぬCDTube作ってみた&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/miyagawa/Dist-Milla"&gt;Dist::Milla&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://yusukebe.com/archives/20120503/195637.html"&gt;ノマドならルノアールがはかどるよねぇ〜っていう10個の理由&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00BU7DBIA/bulknews-22/ref=nosim/"&gt;Kindle: Perlについて語ろう&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://plackperl.org/"&gt;PSGI/Plack&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://mojolicio.us/"&gt;Mojolicious&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.yapcna.org/yn2013/"&gt;YAPC::NA 2013&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.wired.com/wiredenterprise/2013/03/pycon-github/"&gt;Donglegate at PyCon 2013&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Wed, 03 Apr 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/7/</link>
+            <guid isPermaLink="true">http://rebuild.fm/7/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>和田裕介さん (@yusukebe) をゲストに迎えて、Perl
+                プログラミング、フレームワーク、モジュール開発、YAPC などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>和田裕介さん (@yusukebe) をゲストに迎えて、Perl
+                プログラミング、フレームワーク、モジュール開発、YAPC などについて話しました。
+            </itunes:summary>
+            <itunes:duration>40:06</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1384/podcast-ep7.mp3" type="audio/mpeg" length="24909571"/>
+
+        </item>
+
+        <item>
+            <title>6: Kindle Publishing, Google Reader Shutdown (Naoya Ito)</title>
+            <description>&lt;p&gt;伊藤直也さん (&lt;a href="https://twitter.com/naoya_ito"&gt;@naoya_ito&lt;/a&gt;) をゲストに迎えて、Kindle
+                出版、GitHub、Google Reader などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00BSPH158/bulknews-22"&gt;入門Chef Solo - Infrastructure as Code&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://d.hatena.ne.jp/naoya/20130313/1363129532"&gt;Kindle 向けにChef本を出版しました&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.oreilly.co.jp/books/4873111749/"&gt;Blog Hacks&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://shop.oreilly.com/category/roughcuts.do"&gt;O&amp;#39;Reilly Rough Cuts&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://pragprog.com/"&gt;Pragmatic Bookshelf&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://handbook.plackperl.org/"&gt;Plack Handbook&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blog.livedoor.jp/dankogai/archives/51826132.html"&gt;紹介 - Plack Handbook 404 Blog Not Found&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://gumroad.com/"&gt;Gumroad&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://calibre-ebook.com/"&gt;Calibre&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.amazon.com/gp/feature.html?ie=UTF8&amp;amp;docId=1000765211"&gt;KindleGen&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://d.hatena.ne.jp/naoya/20130303/1362299005"&gt;Markdown to Inao&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://help.github.com/articles/github-flavored-markdown"&gt;Github Flavored Markdown&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://p.booklog.jp/about/pro"&gt;パブー Pro&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://paberish.me/"&gt;paberish&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.slideshare.net/knsmr/qait"&gt;ソーシャルコーディング革命後の開発委託の世界&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://jla-old.linux.or.jp/announce/20001127/1.html"&gt;Linux Conference 2000 Fall&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.itmedia.co.jp/news/articles/1303/18/news057.html"&gt;Google Readerが終わっても、RSSは終わらない&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://www.quora.com/Google-Reader-Shut-Down-March-2013/Why-is-Google-killing-Google-Reader"&gt;Why is Google Killing Google Reader?&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://code.google.com/p/pyrfeed/wiki/GoogleReaderAPI"&gt;Google Reader API Unofficial document&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://code.google.com/p/pubsubhubbub/"&gt;pubsubhubbub&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blog.feedly.com/2013/03/14/google-reader/"&gt;Transitioning from Google Reader to Feedly&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://superfeedr.com/"&gt;Superfeedr&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.marco.org/2013/03/14/baby-steps-replacing-google-reader"&gt;Baby steps toward replacing Google Reader&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Thu, 21 Mar 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/6/</link>
+            <guid isPermaLink="true">http://rebuild.fm/6/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>伊藤直也さん (@naoya_ito) をゲストに迎えて、Kindle
+                出版、GitHub、Google Reader などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>伊藤直也さん (@naoya_ito) をゲストに迎えて、Kindle
+                出版、GitHub、Google Reader などについて話しました。
+            </itunes:summary>
+            <itunes:duration>41:20</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1385/podcast-ep6.mp3" type="audio/mpeg" length="24637519"/>
+
+        </item>
+
+        <item>
+            <title>5: Ruby 2.0 (まつもとゆきひろ)</title>
+            <description>&lt;p&gt;まつもとゆきひろさん (&lt;a href="https://twitter.com/yukihiro_matz"&gt;@yukihiro_matz&lt;/a&gt;)
+                をゲストに迎えて、Ruby 2.0 などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://itpro.nikkeibp.co.jp/article/NEWS/20130224/458401/"&gt;Ruby 20周年&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ruby-lang.org/en/news/2013/02/24/ruby-2-0-0-p0-is-released/"&gt;Ruby 2.0.0-p0 released&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://twitter.com/hotchpotch/status/306358719678144512"&gt;COOKPAD migrated to Ruby 1.9&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://blog.heroku.com/archives/2013/3/6/matz_highlights_ruby_2_0_at_waza"&gt;Matz on Ruby 2.0 at Waza&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ruby-forum.com/topic/4408870"&gt;Ruby Implementers Meeting&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.nntp.perl.org/group/perl.packrats/2002/07/msg3.html"&gt;The Jon Orwant mug throwing incident at P5P meeting&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://mdk.per.ly/2012/08/20/prs2012-perl5-perl6-reunification-summit/img_0472/"&gt;Perl5-6 Reunification Summit / Mug throwing&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Wed, 13 Mar 2013 00:00:00 -0700</pubDate>
+            <link>http://rebuild.fm/5/</link>
+            <guid isPermaLink="true">http://rebuild.fm/5/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>まつもとゆきひろさん (@yukihiro_matz)
+                をゲストに迎えて、Ruby 2.0 などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>まつもとゆきひろさん (@yukihiro_matz)
+                をゲストに迎えて、Ruby 2.0 などについて話しました。
+            </itunes:summary>
+            <itunes:duration>35:12</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1386/podcast-ep5.mp3" type="audio/mpeg" length="22045473"/>
+
+        </item>
+
+        <item>
+            <title>4: bkノート, Yak Shaving, Code Reviews (高林哲)</title>
+            <description>&lt;p&gt;高林哲さん (&lt;a href="https://plus.google.com/101346514878442807431/posts"&gt;Satoru Takabayashi on
+                G+&lt;/a&gt;)
+                をゲストに迎えて、バッドノウハウ、ソフトウェアエンジニアリング、コードレビューなどについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="https://plus.google.com/101463981287086074128/posts"&gt;bkノート&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://handbook.plackperl.org/"&gt;Plack Handbook&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://0xcc.net/blog/archives/000196.html"&gt;yak shaving で人生の問題が80%が説明できる問題&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://twitter.com/miyagawa/status/275847917586231296"&gt;Yak Ratio&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://itpro.nikkeibp.co.jp/article/Watcher/20061005/250057/"&gt;プログラマの三大美徳&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://plus.google.com/101463981287086074128/posts/Ptn5advYShp"&gt;リファクタリングという名の現実逃避&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://plus.google.com/101463981287086074128/posts/fMwWWp3dvam"&gt;タイピングが速いプログラマは腕が立つ説&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://sstephenson.us/posts/you-are-not-your-code"&gt;You are Not Your Code&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://steps.dodgson.org/b/2012/12/30/code-review-from-lowland/"&gt;下から目線のコードレビュー&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Wed, 06 Mar 2013 00:00:00 -0800</pubDate>
+            <link>http://rebuild.fm/4/</link>
+            <guid isPermaLink="true">http://rebuild.fm/4/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>高林哲さん (Satoru Takabayashi on
+                G+)
+                をゲストに迎えて、バッドノウハウ、ソフトウェアエンジニアリング、コードレビューなどについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>高林哲さん (Satoru Takabayashi on
+                G+)
+                をゲストに迎えて、バッドノウハウ、ソフトウェアエンジニアリング、コードレビューなどについて話しました。
+            </itunes:summary>
+            <itunes:duration>31:04</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1387/podcast-ep4.mp3" type="audio/mpeg" length="17607963"/>
+
+        </item>
+
+        <item>
+            <title>3: MessagePack (frsyuki, kiyoto)</title>
+            <description>&lt;p&gt;古橋貞之さん (&lt;a href="http://twitter.com/frsyuki"&gt;@frsyuki&lt;/a&gt;)、kiyotoさん
+                (&lt;a href="http://twitter.com/__kiyoto__"&gt;@__kiyoto__&lt;/a&gt;) をゲストに迎えて MessagePack について話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://msgpack.org"&gt;MessagePack&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://kumofs.sourceforge.net/"&gt;KumoFS&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://coderepos.org/share/"&gt;CodeRepos&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/msgpack/msgpack/issues/121"&gt;msgpack issue #121&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Consensus_decision-making#Japan"&gt;Consensus decision-making&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/msgpack/msgpack/issues/128"&gt;msgpack issue #128&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ietf.org/mail-archive/web/json/current/msg00156.html"&gt;msgpack/binarypack&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Wed, 27 Feb 2013 00:00:00 -0800</pubDate>
+            <link>http://rebuild.fm/3/</link>
+            <guid isPermaLink="true">http://rebuild.fm/3/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>古橋貞之さん (@frsyuki)、kiyotoさん
+                (@__kiyoto__) をゲストに迎えて MessagePack について話しました。
+            </itunes:subtitle>
+            <itunes:summary>古橋貞之さん (@frsyuki)、kiyotoさん
+                (@__kiyoto__) をゲストに迎えて MessagePack について話しました。
+            </itunes:summary>
+            <itunes:duration>40:39</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1388/podcast-ep3.mp3" type="audio/mpeg" length="23921953"/>
+
+        </item>
+
+        <item>
+            <title>2: Rails, Redis, VPS (Kenn Ejima)</title>
+            <description>&lt;p&gt;江島健太郎さん(&lt;a href="http://twitter.com/kenn"&gt;@kenn&lt;/a&gt;)をゲストに迎えて Macbook, 開発環境, Rails,
+                Heroku, VPS などについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.tuaw.com/2013/02/13/apple-releases-updates-to-macbook-pro-macbook-air/"&gt;Macbook Pro, Air update&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.crashplan.com/"&gt;Crashplan&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.haystacksoftware.com/arq/"&gt;Arq&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://boxen.github.com/"&gt;Boxen&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/rails/rails-dev-box"&gt;rails-dev-box&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://david.heinemeierhansson.com/2012/rails-is-omakase.html"&gt;Rails is omakase&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.youtube.com/watch?v=VOFTop3AMZ8"&gt;Railsconf 2012 Keynote by DHH&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://dev.mysql.com/tech-resources/articles/whats-new-in-mysql-5.6.html"&gt;MySQL 5.6&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://redis.io/"&gt;Redis&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://rapgenius.com/James-somers-herokus-ugly-secret-lyrics"&gt;Heroku&amp;#39;s Ugly Secret&lt;/a&gt;, &lt;a href="https://blog.heroku.com/archives/2013/2/16/routing_performance_update/"&gt;Heroku Routing Performance Update&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://newrelic.com/"&gt;New Relic&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.slideshare.net/winebarrel/vpc-14281906"&gt;Cookpad migrates to VPC&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://www.digitalocean.com/"&gt;Digital Ocean&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Wed, 20 Feb 2013 00:00:00 -0800</pubDate>
+            <link>http://rebuild.fm/2/</link>
+            <guid isPermaLink="true">http://rebuild.fm/2/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>江島健太郎さん(@kenn)をゲストに迎えて Macbook, 開発環境, Rails,
+                Heroku, VPS などについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>江島健太郎さん(@kenn)をゲストに迎えて Macbook, 開発環境, Rails,
+                Heroku, VPS などについて話しました。
+            </itunes:summary>
+            <itunes:duration>47:56</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1389/podcast-ep2.mp3" type="audio/mpeg" length="29131300"/>
+
+        </item>
+
+        <item>
+            <title>1: Podcasting, LTSV, RubyMotion (伊藤直也)</title>
+            <description>&lt;p&gt;伊藤直也さん(&lt;a href="http://twitter.com/naoya_ito"&gt;@naoya_ito&lt;/a&gt;)をゲストに迎えてポッドキャスト、LTSV、RubyMotion、Perlなどについて話しました。&lt;/p&gt;
+
+                &lt;h3&gt;Show Notes&lt;/h3&gt;
+
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://5by5.tv"&gt;5by5&lt;/a&gt;, &lt;a href="http://www.muleradio.net"&gt;Mule Radio&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blog.instapaper.com/post/24549960305"&gt;Instapaper for Android&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://ltsv.org"&gt;LTSV&lt;/a&gt;, &lt;a href="http://d.hatena.ne.jp/naoya/20130209/1360381374"&gt;LTSV FAQ&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://news.ycombinator.com"&gt;HackerNews&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://flipboard.com"&gt;Flipboard&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://d.hatena.ne.jp/naoya/20130128/1359369101"&gt;開発メモ#2 : AWS でのホスト / クラウドネイティブなデプロイ&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://d.hatena.ne.jp/naoya/20130205/1360062070"&gt;Vagrant&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.rubymotion.com"&gt;RubyMotion&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://rubysource.com/getting-to-know-rubymotion-with-laurent-sansonetti/"&gt;Getting To Know RubyMotion With Laurent Sansonetti&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://docs.topazruby.com/en/latest/blog/announcing-topaz/"&gt;Topaz A New Ruby&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/MoeOrganization/moe"&gt;Moe&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blogs.perl.org/users/ovid/2013/02/perl-7.html"&gt;Perl 7&lt;/a&gt;, &lt;a href="http://blogs.perl.org/users/ovid/2013/02/perl-7---final-thoughts.html"&gt;Perl 7 Final thoughts&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <pubDate>Wed, 13 Feb 2013 00:00:00 -0800</pubDate>
+            <link>http://rebuild.fm/1/</link>
+            <guid isPermaLink="true">http://rebuild.fm/1/</guid>
+            <dc:creator>Tatsuhiko Miyagawa</dc:creator>
+
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>伊藤直也さん(@naoya_ito)をゲストに迎えてポッドキャスト、LTSV、RubyMotion、Perlなどについて話しました。
+            </itunes:subtitle>
+            <itunes:summary>伊藤直也さん(@naoya_ito)をゲストに迎えてポッドキャスト、LTSV、RubyMotion、Perlなどについて話しました。
+            </itunes:summary>
+            <itunes:duration>52:53</itunes:duration>
+            <enclosure url="http://tracking.feedpress.it/link/1949/1390/podcast-ep1-r2.mp3" type="audio/mpeg" length="31475078"/>
+
+        </item>
+
+    </channel>
+</rss>

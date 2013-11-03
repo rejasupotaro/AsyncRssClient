@@ -4,8 +4,8 @@ import android.net.Uri;
 import android.test.InstrumentationTestCase;
 
 import rejasupotaro.asyncrssclient.RssResponseHandler;
-import rejasupotaro.asyncrssclient.models.RssFeed;
-import rejasupotaro.asyncrssclient.models.RssItem;
+import rejasupotaro.asyncrssclient.RssFeed;
+import rejasupotaro.asyncrssclient.RssItem;
 
 public class RssResponseHandlerTest extends InstrumentationTestCase {
 
@@ -29,5 +29,7 @@ public class RssResponseHandlerTest extends InstrumentationTestCase {
         assertEquals("Thu, 31 Oct 2013 00:00:00 -0700", rssItem.getPubDate());
         assertEquals(Uri.parse("http://rebuild.fm/24/"), rssItem.getLink());
         assertEquals(Uri.parse("http://tracking.feedpress.it/link/1949/5437/podcast-ep24.mp3"), rssItem.getMediaEnclosure().getUrl());
+        assertEquals("Daisuke Muraseさん (@typester) をゲストに迎えて、Go,  OS X Mavericks, Safari Notifications, LinkedIn Intro, Tweetbot などについて話しました。", rssItem.getSubtitle());
+        assertEquals("51:34", rssItem.getDuration());
     }
 }

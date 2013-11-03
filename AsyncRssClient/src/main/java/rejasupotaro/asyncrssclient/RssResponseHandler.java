@@ -12,8 +12,6 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import rejasupotaro.asyncrssclient.models.RssFeed;
-
 public class RssResponseHandler {
 
     public RssFeed parse(String responseBody) throws ParserConfigurationException, SAXException, IOException {

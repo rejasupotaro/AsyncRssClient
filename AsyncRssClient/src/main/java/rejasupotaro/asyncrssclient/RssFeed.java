@@ -1,4 +1,4 @@
-package rejasupotaro.asyncrssclient.models;
+package rejasupotaro.asyncrssclient;
 
 import android.net.Uri;
 
@@ -23,7 +23,9 @@ public class RssFeed extends RssElement {
 
     private List<RssItem> mRssItemList;
 
-    public void setTitle(String title) {
+    private String mSubtitle;
+
+    void setTitle(String title) {
         mTitle = title;
     }
 
@@ -31,7 +33,7 @@ public class RssFeed extends RssElement {
         return mTitle;
     }
 
-    public void setDescription(String description) {
+    void setDescription(String description) {
         mDescription = description;
     }
 
@@ -39,7 +41,7 @@ public class RssFeed extends RssElement {
         return mDescription;
     }
 
-    public void setLink(Uri link) {
+    void setLink(Uri link) {
         mLink = link;
     }
 
@@ -47,7 +49,7 @@ public class RssFeed extends RssElement {
         return mLink;
     }
 
-    public void setPubDate(String pubDate) {
+    void setPubDate(String pubDate) {
         mPubDate = pubDate;
     }
 
@@ -55,7 +57,7 @@ public class RssFeed extends RssElement {
         return mPubDate;
     }
 
-    public void setLastBuildDate(String lastBuildDate) {
+    void setLastBuildDate(String lastBuildDate) {
         mLastBuildDate = lastBuildDate;
     }
 
@@ -63,7 +65,7 @@ public class RssFeed extends RssElement {
         return mLastBuildDate;
     }
 
-    public void setTtl(int ttl) {
+    void setTtl(int ttl) {
         mTtl = ttl;
     }
 
@@ -71,7 +73,7 @@ public class RssFeed extends RssElement {
         return mTtl;
     }
 
-    public void addCategory(String category) {
+    void addCategory(String category) {
         if (mCategoryList == null) {
             mCategoryList = new ArrayList<String>();
         }
@@ -82,7 +84,7 @@ public class RssFeed extends RssElement {
         return mCategoryList;
     }
 
-    public void addRssItem(RssItem rssItem) {
+    void addRssItem(RssItem rssItem) {
         if (mRssItemList == null) {
             mRssItemList = new ArrayList<RssItem>();
         }
@@ -91,5 +93,13 @@ public class RssFeed extends RssElement {
 
     public List<RssItem> getRssItemList() {
         return mRssItemList;
+    }
+
+    void setSubtitle(String subtitle) {
+        mSubtitle = subtitle;
+    }
+
+    public String getSubtitle() {
+        return mSubtitle;
     }
 }

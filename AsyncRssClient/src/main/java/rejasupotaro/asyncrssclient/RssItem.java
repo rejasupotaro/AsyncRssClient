@@ -1,12 +1,9 @@
-package rejasupotaro.asyncrssclient.models;
+package rejasupotaro.asyncrssclient;
 
 import android.net.Uri;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import rejasupotaro.asyncrssclient.MediaEnclosure;
-import rejasupotaro.asyncrssclient.MediaThumbnail;
 
 public class RssItem extends RssElement {
 
@@ -26,7 +23,11 @@ public class RssItem extends RssElement {
 
     private List<MediaThumbnail> mMediaThumbnailList;
 
-    public void setTitle(String title) {
+    private String mSubtitle;
+
+    private String mDuration;
+
+    void setTitle(String title) {
         mTitle = title;
     }
 
@@ -34,7 +35,7 @@ public class RssItem extends RssElement {
         return mTitle;
     }
 
-    public void setDescription(String description) {
+    void setDescription(String description) {
         mDescription = description;
     }
 
@@ -42,7 +43,7 @@ public class RssItem extends RssElement {
         return mDescription;
     }
 
-    public void setContent(String content) {
+    void setContent(String content) {
         mContent = content;
     }
 
@@ -50,7 +51,7 @@ public class RssItem extends RssElement {
         return mContent;
     }
 
-    public void setLink(Uri link) {
+    void setLink(Uri link) {
         mLink = link;
     }
 
@@ -58,7 +59,7 @@ public class RssItem extends RssElement {
         return mLink;
     }
 
-    public void setPubDate(String pubDate) {
+    void setPubDate(String pubDate) {
         mPubDate = pubDate;
     }
 
@@ -66,7 +67,7 @@ public class RssItem extends RssElement {
         return mPubDate;
     }
 
-    public void addCategory(String category) {
+    void addCategory(String category) {
         if (mCategoryList == null) {
             mCategoryList = new ArrayList<String>();
         }
@@ -77,7 +78,7 @@ public class RssItem extends RssElement {
         return mCategoryList;
     }
 
-    public void setMediaEnclosure(MediaEnclosure mediaEnclosure) {
+    void setMediaEnclosure(MediaEnclosure mediaEnclosure) {
         mMediaEnclosure = mediaEnclosure;
     }
 
@@ -85,7 +86,7 @@ public class RssItem extends RssElement {
         return mMediaEnclosure;
     }
 
-    public void addMediaThumbnail(MediaThumbnail mediaThumbnail) {
+    void addMediaThumbnail(MediaThumbnail mediaThumbnail) {
         if (mMediaThumbnailList == null) {
             mMediaThumbnailList = new ArrayList<MediaThumbnail>();
         }
@@ -94,5 +95,21 @@ public class RssItem extends RssElement {
 
     public List<MediaThumbnail> getMediaThumbnail() {
         return mMediaThumbnailList;
+    }
+
+    void setSubtitle(String subtitle) {
+        mSubtitle = subtitle;
+    }
+
+    public String getSubtitle() {
+        return mSubtitle;
+    }
+
+    void setDuration(String duration) {
+        mDuration = duration;
+    }
+
+    public String getDuration() {
+        return mDuration;
     }
 }

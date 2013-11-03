@@ -6,8 +6,6 @@ import com.loopj.android.http.AsyncHttpResponseHandler;
 import org.apache.http.Header;
 import org.apache.http.protocol.HTTP;
 
-import rejasupotaro.asyncrssclient.models.RssFeed;
-
 public class AsyncRssClient {
 
     public static final AsyncHttpClient mClient = new AsyncHttpClient();

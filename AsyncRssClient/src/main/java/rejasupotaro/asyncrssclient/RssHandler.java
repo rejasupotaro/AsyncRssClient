@@ -3,9 +3,6 @@ package rejasupotaro.asyncrssclient;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 
-import rejasupotaro.asyncrssclient.models.RssFeed;
-import rejasupotaro.asyncrssclient.models.RssItem;
-
 public class RssHandler extends DefaultHandler {
     /**
      * Constant for XML element name which identifies RSS mRssItems.

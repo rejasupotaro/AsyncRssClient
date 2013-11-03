@@ -4,8 +4,6 @@ import android.net.Uri;
 
 import org.xml.sax.Attributes;
 
-import rejasupotaro.asyncrssclient.models.RssElement;
-
 public enum ElementSetter {
     TITLE("title", new ContentSetter() {
         @Override
@@ -98,6 +96,18 @@ public enum ElementSetter {
             MediaEnclosure enclosure = new MediaEnclosure(
                     android.net.Uri.parse(url), length, mimeType);
             element.setMediaEnclosure(enclosure);
+        }
+    }),
+    ITUNES_SUBTITLE("itunes:subtitle", new ContentSetter() {
+        @Override
+        public void set(RssElement element, String value) {
+            element.setSubtitle(value);
+        }
+    }),
+    ITUNES_DURATION("itunes:duration", new ContentSetter() {
+        @Override
+        public void set(RssElement element, String value) {
+            element.setDuration(value);
         }
     });
 

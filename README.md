@@ -3,6 +3,23 @@ AsyncRssClient
 
 Simple Asyncronous RSS 2.0 reader library for Android.
 
+Installation
+---------
+
+Add dependency in your build settings.
+
+```groovy
+repositories {
+    mavenCentral()
+    maven { url 'https://raw.github.com/rejasupotaro/AsyncRssClient/master/AsyncRssClient/repository' }
+}
+
+dependencies {
+    ...
+    compile 'rejasupotaro:async-rss-client:0.0.1'
+}
+```
+
 Example
 ---------
 

@@ -5,23 +5,26 @@ import android.net.Uri;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RssFeed extends RssElement {
+import rejasupotaro.asyncrssclient.MediaEnclosure;
+import rejasupotaro.asyncrssclient.MediaThumbnail;
+
+public class RssItem extends RssElement {
 
     private String mTitle;
 
     private String mDescription;
 
+    private String mContent;
+
     private Uri mLink;
 
     private String mPubDate;
 
-    private String mLastBuildDate;
-
-    private int mTtl;
-
     private List<String> mCategoryList;
 
-    private List<RssItem> mRssItemList;
+    private MediaEnclosure mMediaEnclosure;
+
+    private List<MediaThumbnail> mMediaThumbnailList;
 
     public void setTitle(String title) {
         mTitle = title;
@@ -37,6 +40,14 @@ public class RssFeed extends RssElement {
 
     public String getDescription() {
         return mDescription;
+    }
+
+    public void setContent(String content) {
+        mContent = content;
+    }
+
+    public String getContent() {
+        return mContent;
     }
 
     public void setLink(Uri link) {
@@ -55,22 +66,6 @@ public class RssFeed extends RssElement {
         return mPubDate;
     }
 
-    public void setLastBuildDate(String lastBuildDate) {
-        mLastBuildDate = lastBuildDate;
-    }
-
-    public String getLastBuildDate() {
-        return mLastBuildDate;
-    }
-
-    public void setTtl(int ttl) {
-        mTtl = ttl;
-    }
-
-    public int getTtl() {
-        return mTtl;
-    }
-
     public void addCategory(String category) {
         if (mCategoryList == null) {
             mCategoryList = new ArrayList<String>();
@@ -82,14 +77,22 @@ public class RssFeed extends RssElement {
         return mCategoryList;
     }
 
-    public void addRssItem(RssItem rssItem) {
-        if (mRssItemList == null) {
-            mRssItemList = new ArrayList<RssItem>();
-        }
-        mRssItemList.add(rssItem);
+    public void setMediaEnclosure(MediaEnclosure mediaEnclosure) {
+        mMediaEnclosure = mediaEnclosure;
     }
 
-    public List<RssItem> getRssItemList() {
-        return mRssItemList;
+    public MediaEnclosure getMediaEnclosure() {
+        return mMediaEnclosure;
+    }
+
+    public void addMediaThumbnail(MediaThumbnail mediaThumbnail) {
+        if (mMediaThumbnailList == null) {
+            mMediaThumbnailList = new ArrayList<MediaThumbnail>();
+        }
+        mMediaThumbnailList.add(mediaThumbnail);
+    }
+
+    public List<MediaThumbnail> getMediaThumbnail() {
+        return mMediaThumbnailList;
     }
 }

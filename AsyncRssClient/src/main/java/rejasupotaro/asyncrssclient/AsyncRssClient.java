@@ -8,16 +8,16 @@ import org.apache.http.protocol.HTTP;
 
 public class AsyncRssClient {
 
-    public static final AsyncHttpClient mClient = new AsyncHttpClient();
+    private static final AsyncHttpClient sClient = new AsyncHttpClient();
 
-    public static final RssResponseHandler mHandler = new RssResponseHandler();
+    private static final RssResponseHandler sHandler = new RssResponseHandler();
 
     public void read(String url, final AsyncRssResponseHandler handler) {
-        mClient.get(url, new AsyncHttpResponseHandler() {
+        sClient.get(url, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
                 try {
-                    RssFeed rssFeed = mHandler.parse(new String(responseBody, HTTP.UTF_8));
+                    RssFeed rssFeed = sHandler.parse(new String(responseBody, HTTP.UTF_8));
                     handler.onSuccess(rssFeed);
                 } catch (Exception error) {
                     handler.onFailure(statusCode, headers, responseBody, error);

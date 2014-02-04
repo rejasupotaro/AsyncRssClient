@@ -14,7 +14,7 @@ repositories {
 
 android {
     compileSdkVersion 18
-    buildToolsVersion "19.0.1"
+    buildToolsVersion '19.0.1'
 
     defaultConfig {
         minSdkVersion 9
@@ -32,4 +32,5 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:+'
+    compile project(':AsyncRssClient')
 }

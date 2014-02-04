@@ -1,4 +1,4 @@
-AsyncRssClient
+AsyncRssClient [![Build Status](https://travis-ci.org/rejasupotaro/AsyncRssClient.png?branch=master)](https://travis-ci.org/rejasupotaro/AsyncRssClient)
 ======
 
 Simple Asyncronous RSS 2.0 reader library for Android.
@@ -56,7 +56,7 @@ Example
             ...
 ```
 
-### Request Feeds
+### Request Feed
 
 ```java
 AsyncHttpClient client = new AsyncHttpCient();
@@ -77,11 +77,11 @@ client.get("http://feeds.rebuild.fm/rebuildfm", new AsyncRssResponseHandler() {
 })
 ```
 
-Licensing
+License
 ---------
 
 ```
-Copyright 2012 Kentaro Takiguchi
+Copyright 2013 Kentaro Takiguchi
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

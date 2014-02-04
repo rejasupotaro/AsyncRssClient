@@ -59,22 +59,23 @@ Example
 ### Request Feed
 
 ```java
-AsyncHttpClient client = new AsyncHttpCient();
-client.get("http://feeds.rebuild.fm/rebuildfm", new AsyncRssResponseHandler() {
+AsyncRssClient client = new AsyncRssClient();
+client.read("http://feeds.rebuild.fm/rebuildfm", new AsyncRssResponseHandler() {
     @Override
     public void onSuccess(RssFeed rssFeed) {
         rssFeed.getTitle(); // => Rebuild
         rssFeed.getDescription(); // => ウェブ開発、プログラミング、モバイル、ガジェットなどにフォーカスしたテクノロジー系ポッドキャストです。
 
         RssItem rssItem = rssFeed.getRssItemList().get(0);
-        rssFeed.getTitle(); // => 24: Go, Mavericks, LinkedIn Intro (typester)
+        rssItem.getTitle(); // => 24: Go, Mavericks, LinkedIn Intro (typester)
     }
 
     @Override
-    public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error)) {
+    public void onFailure(int statusCode, Header[] headers, byte[] responseBody,
+            Throwable error) {
         ...
     }
-})
+});
 ```
 
 License

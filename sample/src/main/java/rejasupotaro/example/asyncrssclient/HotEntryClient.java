@@ -8,6 +8,7 @@ import rejasupotaro.asyncrssclient.AsyncRssClient;
 import rejasupotaro.asyncrssclient.AsyncRssResponseHandler;
 import rejasupotaro.asyncrssclient.RssFeed;
 import rejasupotaro.asyncrssclient.RssItem;
+import rejasupotaro.example.asyncrssclient.models.Entry;
 
 public class HotEntryClient {
 
@@ -17,7 +18,7 @@ public class HotEntryClient {
 
     public static interface HotEntryResponseHandler {
 
-        public void onResponse(List<RssItem> rssItemList);
+        public void onResponse(List<Entry> rssItemList);
 
         public void onErrorResponse();
     }
@@ -26,8 +27,8 @@ public class HotEntryClient {
         sClient.read(HOTENTRY_RSS_URL, new AsyncRssResponseHandler() {
             @Override
             public void onSuccess(RssFeed rssFeed) {
-                List<RssItem> rssItem = rssFeed.getRssItemList();
-                handler.onResponse(rssItem);
+                List<RssItem> rssItemList = rssFeed.getRssItemList();
+                handler.onResponse(Entry.fromRssItem(rssItemList));
             }
 
             @Override

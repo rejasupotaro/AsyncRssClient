@@ -1,15 +1,19 @@
 package rejasupotaro.example.asyncrssclient;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.List;
 
+import rejasupotaro.example.asyncrssclient.adapters.EntryAdapter;
 import rejasupotaro.example.asyncrssclient.models.Entry;
 
 public class MainActivity extends Activity {
@@ -46,10 +50,15 @@ public class MainActivity extends Activity {
     }
 
     private void setupListView(List<Entry> entryList) {
-        ArrayAdapter<Entry> entryArrayAdapter =
-                new ArrayAdapter<Entry>(this, android.R.layout.simple_list_item_1,
-                        entryList);
-        mHotEntryListView.setAdapter(entryArrayAdapter);
+        final EntryAdapter entryAdapter = new EntryAdapter(this, entryList);
+        mHotEntryListView.setAdapter(entryAdapter);
+        mHotEntryListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Entry entry = entryAdapter.getItem(position);
+                startActivity(new Intent(Intent.ACTION_VIEW, entry.getLink()));
+            }
+        });
     }
 
     @Override

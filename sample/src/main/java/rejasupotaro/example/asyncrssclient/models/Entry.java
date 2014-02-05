@@ -9,13 +9,29 @@ import rejasupotaro.asyncrssclient.RssItem;
 
 public class Entry {
 
-    public String mTitle;
+    private String mTitle;
 
-    public String mDescription;
+    private String mDescription;
 
-    public String mContent;
+    private String mContent;
 
-    public Uri mLink;
+    private Uri mLink;
+
+    public String getTitle() {
+        return mTitle;
+    }
+
+    public String getDescription() {
+        return mDescription;
+    }
+
+    public String getContent() {
+        return mContent;
+    }
+
+    public Uri getLink() {
+        return mLink;
+    }
 
     public Entry() {
     }

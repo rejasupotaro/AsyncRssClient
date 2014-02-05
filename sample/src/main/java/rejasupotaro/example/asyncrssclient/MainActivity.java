@@ -2,6 +2,7 @@ package rejasupotaro.example.asyncrssclient;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -43,10 +45,13 @@ public class MainActivity extends Activity {
 
             @Override
             public void onErrorResponse() {
-                Log.e("DEBUG", "onErrorResponse");
+                showToast("An error occured while requesting feed");
             }
         });
+    }
 
+    private void showToast(String message) {
+        Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
     }
 
     private void setupListView(List<Entry> entryList) {
@@ -56,9 +61,13 @@ public class MainActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Entry entry = entryAdapter.getItem(position);
-                startActivity(new Intent(Intent.ACTION_VIEW, entry.getLink()));
+                openBrowser(entry.getLink());
             }
         });
+    }
+
+    private void openBrowser(Uri uri) {
+        startActivity(new Intent(Intent.ACTION_VIEW, uri));
     }
 
     @Override

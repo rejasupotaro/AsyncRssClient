@@ -2,6 +2,8 @@ package rejasupotaro.example.asyncrssclient;
 
 import org.apache.http.Header;
 
+import android.util.Log;
+
 import java.util.List;
 
 import rejasupotaro.asyncrssclient.AsyncRssClient;
@@ -11,6 +13,8 @@ import rejasupotaro.asyncrssclient.RssItem;
 import rejasupotaro.example.asyncrssclient.models.Entry;
 
 public class HotEntryClient {
+
+    private static final String TAG = HotEntryClient.class.getSimpleName();
 
     private static final AsyncRssClient sClient = new AsyncRssClient();
 
@@ -34,6 +38,7 @@ public class HotEntryClient {
             @Override
             public void onFailure(int statusCode, Header[] headers, byte[] responseBody,
                     Throwable error) {
+                Log.e(TAG, "Request hot entry failed", error);
                 handler.onErrorResponse();
             }
         });

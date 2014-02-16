@@ -3,8 +3,6 @@
 
     <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="18" />
 
-    <application android:allowBackup="true"
-        android:theme="@style/AppTheme">
-    </application>
+    <application android:allowBackup="true"></application>
 
 </manifest>

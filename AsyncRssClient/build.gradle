@@ -16,7 +16,7 @@ uploadArchives {
             repository url: "file://${projectDir}/repository"
             pom.groupId = 'rejasupotaro'
             pom.artifactId = 'async-rss-client'
-            pom.version = '0.0.3'
+            pom.version = '0.0.4'
         }
     }
 }

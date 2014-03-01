@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     ...
-    compile 'rejasupotaro:async-rss-client:0.0.4'
+    compile 'rejasupotaro:async-rss-client:0.0.5'
 }
 ```
 

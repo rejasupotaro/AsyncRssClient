@@ -12,6 +12,10 @@ public class AsyncRssClient {
 
     private static final RssResponseHandler sHandler = new RssResponseHandler();
 
+    public static void setUserAgent(String userAgent) {
+        sClient.setUserAgent(userAgent);
+    }
+
     public void read(String url, final AsyncRssResponseHandler handler) {
         sClient.get(url, new AsyncHttpResponseHandler() {
             @Override

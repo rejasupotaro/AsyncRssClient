@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     ...
-    compile 'rejasupotaro:async-rss-client:0.0.5'
+    compile 'rejasupotaro:async-rss-client:0.0.6'
 }
 ```
 
@@ -66,7 +66,7 @@ client.read("http://feeds.rebuild.fm/rebuildfm", new AsyncRssResponseHandler() {
         rssFeed.getTitle(); // => Rebuild
         rssFeed.getDescription(); // => ウェブ開発、プログラミング、モバイル、ガジェットなどにフォーカスしたテクノロジー系ポッドキャストです。
 
-        RssItem rssItem = rssFeed.getRssItemList().get(0);
+        RssItem rssItem = rssFeed.getRssItems().get(0);
         rssItem.getTitle(); // => 24: Go, Mavericks, LinkedIn Intro (typester)
     }
 

@@ -6,100 +6,91 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RssFeed extends RssElement {
-
-    private String mTitle;
-
-    private String mDescription;
-
-    private Uri mLink;
-
-    private String mPubDate;
-
-    private String mLastBuildDate;
-
-    private int mTtl;
-
-    private List<String> mCategoryList;
-
-    private List<RssItem> mRssItemList;
-
-    private String mSubtitle;
+    private String title;
+    private String description;
+    private Uri link;
+    private String pubDate;
+    private String lastBuildDate;
+    private int ttl;
+    private List<String> categories;
+    private List<RssItem> rssItems;
+    private String subtitle;
 
     void setTitle(String title) {
-        mTitle = title;
+        this.title = title;
     }
 
     public String getTitle() {
-        return mTitle;
+        return title;
     }
 
     void setDescription(String description) {
-        mDescription = description;
+        this.description = description;
     }
 
     public String getDescription() {
-        return mDescription;
+        return description;
     }
 
     void setLink(Uri link) {
-        mLink = link;
+        this.link = link;
     }
 
     public Uri getLink() {
-        return mLink;
+        return link;
     }
 
     void setPubDate(String pubDate) {
-        mPubDate = pubDate;
+        this.pubDate = pubDate;
     }
 
     public String getPubDate() {
-        return mPubDate;
+        return pubDate;
     }
 
     void setLastBuildDate(String lastBuildDate) {
-        mLastBuildDate = lastBuildDate;
+        this.lastBuildDate = lastBuildDate;
     }
 
     public String getLastBuildDate() {
-        return mLastBuildDate;
+        return lastBuildDate;
     }
 
     void setTtl(int ttl) {
-        mTtl = ttl;
+        this.ttl = ttl;
     }
 
     public int getTtl() {
-        return mTtl;
+        return ttl;
     }
 
     void addCategory(String category) {
-        if (mCategoryList == null) {
-            mCategoryList = new ArrayList<String>();
+        if (categories == null) {
+            categories = new ArrayList<String>();
         }
-        mCategoryList.add(category);
+        categories.add(category);
     }
 
-    public List<String> getCategoryList() {
-        return mCategoryList;
+    public List<String> getCategories() {
+        return categories;
     }
 
     void addRssItem(RssItem rssItem) {
-        if (mRssItemList == null) {
-            mRssItemList = new ArrayList<RssItem>();
+        if (rssItems == null) {
+            rssItems = new ArrayList<RssItem>();
         }
-        mRssItemList.add(rssItem);
+        rssItems.add(rssItem);
     }
 
-    public List<RssItem> getRssItemList() {
-        return mRssItemList;
+    public List<RssItem> getRssItems() {
+        return rssItems;
     }
 
     void setSubtitle(String subtitle) {
-        mSubtitle = subtitle;
+        this.subtitle = subtitle;
     }
 
     public String getSubtitle() {
-        return mSubtitle;
+        return subtitle;
     }
 }

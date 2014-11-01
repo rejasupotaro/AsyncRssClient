@@ -20,9 +20,9 @@ public class RssParserTest extends InstrumentationTestCase {
         assertEquals("Rebuild", rssFeed.getTitle());
         assertEquals("ウェブ開発、プログラミング、モバイル、ガジェットなどにフォーカスしたテクノロジー系ポッドキャストです。", rssFeed.getDescription());
         assertEquals(Uri.parse("http://rebuild.fm"), rssFeed.getLink());
-        assertEquals(24, rssFeed.getRssItemList().size());
+        assertEquals(24, rssFeed.getRssItems().size());
 
-        RssItem rssItem = rssFeed.getRssItemList().get(0);
+        RssItem rssItem = rssFeed.getRssItems().get(0);
         assertNotNull(rssItem);
         assertEquals("24: Go, Mavericks, LinkedIn Intro (typester)", rssItem.getTitle());
         assertNotNull(rssItem.getDescription());

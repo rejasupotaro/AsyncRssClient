@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -11,8 +12,14 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import org.apache.http.Header;
+
 import java.util.List;
 
+import rejasupotaro.asyncrssclient.AsyncRssClient;
+import rejasupotaro.asyncrssclient.AsyncRssResponseHandler;
+import rejasupotaro.asyncrssclient.RssFeed;
+import rejasupotaro.asyncrssclient.RssItem;
 import rejasupotaro.example.asyncrssclient.adapters.EntryAdapter;
 import rejasupotaro.example.asyncrssclient.models.Entry;
 
@@ -34,16 +41,32 @@ public class MainActivity extends Activity {
     }
 
     private void requestHotEntry() {
-        HotEntryClient client = new HotEntryClient();
-        client.request(new HotEntryClient.HotEntryResponseHandler() {
+//        HotEntryClient client = new HotEntryClient();
+//        client.request(new HotEntryClient.HotEntryResponseHandler() {
+//            @Override
+//            public void onResponse(List<Entry> rssItemList) {
+//                setupListView(rssItemList);
+//            }
+//
+//            @Override
+//            public void onErrorResponse() {
+//                showToast("An error occured while requesting feed");
+//            }
+//        });
+
+        AsyncRssClient asyncRssClient = new AsyncRssClient();
+        asyncRssClient.read("http://feeds.rebuild.fm/rebuildfm", new AsyncRssResponseHandler() {
             @Override
-            public void onResponse(List<Entry> rssItemList) {
-                setupListView(rssItemList);
+            public void onSuccess(RssFeed rssFeed) {
+                Log.e("debugging", rssFeed.getTitle());
+                Log.e("debugging", rssFeed.getDescription());
+                RssItem rssItem = rssFeed.getRssItems().get(0);
+                Log.e("debugging", rssItem.getTitle());
             }
 
             @Override
-            public void onErrorResponse() {
-                showToast("An error occured while requesting feed");
+            public void onFailure(int statusCode, Header[] headers, byte[] responseBody,
+                                  Throwable error) {
             }
         });
     }

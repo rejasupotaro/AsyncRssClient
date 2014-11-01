@@ -31,7 +31,7 @@ public class HotEntryClient {
         sClient.read(HOTENTRY_RSS_URL, new AsyncRssResponseHandler() {
             @Override
             public void onSuccess(RssFeed rssFeed) {
-                List<RssItem> rssItemList = rssFeed.getRssItemList();
+                List<RssItem> rssItemList = rssFeed.getRssItems();
                 handler.onResponse(Entry.fromRssItem(rssItemList));
             }
 

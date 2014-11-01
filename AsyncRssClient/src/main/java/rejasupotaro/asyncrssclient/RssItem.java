@@ -6,110 +6,100 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RssItem extends RssElement {
-
-    private String mTitle;
-
-    private String mDescription;
-
-    private String mContent;
-
-    private Uri mLink;
-
-    private String mPubDate;
-
-    private List<String> mCategoryList;
-
-    private MediaEnclosure mMediaEnclosure;
-
-    private List<MediaThumbnail> mMediaThumbnailList;
-
-    private String mSubtitle;
-
-    private String mDuration;
+    private String title;
+    private String description;
+    private String content;
+    private Uri link;
+    private String pubDate;
+    private List<String> categories;
+    private MediaEnclosure mediaEnclosure;
+    private List<MediaThumbnail> mediaThumbnails;
+    private String subtitle;
+    private String duration;
 
     void setTitle(String title) {
-        mTitle = title;
+        this.title = title;
     }
 
     public String getTitle() {
-        return mTitle;
+        return title;
     }
 
     void setDescription(String description) {
-        mDescription = description;
+        this.description = description;
     }
 
     public String getDescription() {
-        return mDescription;
+        return description;
     }
 
     void setContent(String content) {
-        mContent = content;
+        this.content = content;
     }
 
     public String getContent() {
-        return mContent;
+        return content;
     }
 
     void setLink(Uri link) {
-        mLink = link;
+        this.link = link;
     }
 
     public Uri getLink() {
-        return mLink;
+        return link;
     }
 
     void setPubDate(String pubDate) {
-        mPubDate = pubDate;
+        this.pubDate = pubDate;
     }
 
     public String getPubDate() {
-        return mPubDate;
+        return pubDate;
     }
 
     void addCategory(String category) {
-        if (mCategoryList == null) {
-            mCategoryList = new ArrayList<String>();
+        if (categories == null) {
+            categories = new ArrayList<String>();
         }
-        mCategoryList.add(category);
+        categories.add(category);
     }
 
-    public List<String> getCategoryList() {
-        return mCategoryList;
+    public List<String> getCategories() {
+        return categories;
     }
 
     void setMediaEnclosure(MediaEnclosure mediaEnclosure) {
-        mMediaEnclosure = mediaEnclosure;
+        this.mediaEnclosure = mediaEnclosure;
     }
 
     public MediaEnclosure getMediaEnclosure() {
-        return mMediaEnclosure;
+        return mediaEnclosure;
     }
 
     void addMediaThumbnail(MediaThumbnail mediaThumbnail) {
-        if (mMediaThumbnailList == null) {
-            mMediaThumbnailList = new ArrayList<MediaThumbnail>();
+        if (mediaThumbnails == null) {
+            mediaThumbnails = new ArrayList<MediaThumbnail>();
         }
-        mMediaThumbnailList.add(mediaThumbnail);
+        mediaThumbnails.add(mediaThumbnail);
     }
 
-    public List<MediaThumbnail> getMediaThumbnail() {
-        return mMediaThumbnailList;
+    public List<MediaThumbnail> getMediaThumbnails() {
+        return mediaThumbnails;
     }
 
     void setSubtitle(String subtitle) {
-        mSubtitle = subtitle;
+        this.subtitle = subtitle;
     }
 
     public String getSubtitle() {
-        return mSubtitle;
+        return subtitle;
     }
 
     void setDuration(String duration) {
-        mDuration = duration;
+        this.duration = duration;
     }
 
     public String getDuration() {
-        return mDuration;
+        return duration;
     }
 }

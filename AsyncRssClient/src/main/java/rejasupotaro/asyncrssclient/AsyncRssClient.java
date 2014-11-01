@@ -19,12 +19,12 @@ public class AsyncRssClient {
     public void read(String url, final AsyncRssResponseHandler handler) {
         sClient.get(url, new AsyncHttpResponseHandler() {
             @Override
-            public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
+            public void onSuccess(int statusCode, Header[] headers, byte[] body) {
                 try {
-                    RssFeed rssFeed = sHandler.parse(new String(responseBody, HTTP.UTF_8));
+                    RssFeed rssFeed = sHandler.parse(body);
                     handler.onSuccess(rssFeed);
                 } catch (Exception error) {
-                    handler.onFailure(statusCode, headers, responseBody, error);
+                    handler.onFailure(statusCode, headers, body, error);
                 }
             }
 

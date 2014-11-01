@@ -13,6 +13,9 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
 public class RssParser {
+    public RssFeed parse(byte[] data) throws IOException, SAXException, ParserConfigurationException {
+        return parse(new String(data, HTTP.UTF_8));
+    }
 
     public RssFeed parse(String data) throws ParserConfigurationException, SAXException, IOException {
         SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();

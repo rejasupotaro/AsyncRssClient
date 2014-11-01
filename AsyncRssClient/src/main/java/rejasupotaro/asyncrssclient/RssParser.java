@@ -12,17 +12,16 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-public class RssResponseHandler {
+public class RssParser {
 
-    public RssFeed parse(String responseBody) throws ParserConfigurationException, SAXException, IOException {
+    public RssFeed parse(String data) throws ParserConfigurationException, SAXException, IOException {
         SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
         SAXParser saxParser = saxParserFactory.newSAXParser();
         XMLReader xmlReader = saxParser.getXMLReader();
         RssHandler handler = new RssHandler();
 
         xmlReader.setContentHandler(handler);
-        InputSource source = new InputSource(
-                new ByteArrayInputStream(responseBody.getBytes(HTTP.UTF_8)));
+        InputSource source = new InputSource(new ByteArrayInputStream(data.getBytes(HTTP.UTF_8)));
         xmlReader.parse(source);
 
         return handler.getRssFeed();

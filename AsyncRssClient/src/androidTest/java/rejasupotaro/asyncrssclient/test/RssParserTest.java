@@ -3,19 +3,19 @@ package rejasupotaro.asyncrssclient.test;
 import android.net.Uri;
 import android.test.InstrumentationTestCase;
 
-import rejasupotaro.asyncrssclient.RssResponseHandler;
+import rejasupotaro.asyncrssclient.RssParser;
 import rejasupotaro.asyncrssclient.RssFeed;
 import rejasupotaro.asyncrssclient.RssItem;
 
-public class RssResponseHandlerTest extends InstrumentationTestCase {
+public class RssParserTest extends InstrumentationTestCase {
 
     public void testParse() throws Exception {
         String testData = AssetsUtils.read(getInstrumentation(), "feeds_rebuild_fm.xml");
         assertNotNull(testData);
 
-        RssResponseHandler rssResponseHandler = new RssResponseHandler();
+        RssParser rssParser = new RssParser();
 
-        RssFeed rssFeed = rssResponseHandler.parse(testData);
+        RssFeed rssFeed = rssParser.parse(testData);
         assertNotNull(rssFeed);
         assertEquals("Rebuild", rssFeed.getTitle());
         assertEquals("ウェブ開発、プログラミング、モバイル、ガジェットなどにフォーカスしたテクノロジー系ポッドキャストです。", rssFeed.getDescription());

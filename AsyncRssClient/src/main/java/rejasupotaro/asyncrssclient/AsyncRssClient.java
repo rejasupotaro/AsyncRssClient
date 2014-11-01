@@ -10,7 +10,7 @@ public class AsyncRssClient {
 
     private static final AsyncHttpClient sClient = new AsyncHttpClient();
 
-    private static final RssResponseHandler sHandler = new RssResponseHandler();
+    private static final RssParser sHandler = new RssParser();
 
     public static void setUserAgent(String userAgent) {
         sClient.setUserAgent(userAgent);

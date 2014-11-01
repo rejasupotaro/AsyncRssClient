@@ -41,32 +41,16 @@ public class MainActivity extends Activity {
     }
 
     private void requestHotEntry() {
-//        HotEntryClient client = new HotEntryClient();
-//        client.request(new HotEntryClient.HotEntryResponseHandler() {
-//            @Override
-//            public void onResponse(List<Entry> rssItemList) {
-//                setupListView(rssItemList);
-//            }
-//
-//            @Override
-//            public void onErrorResponse() {
-//                showToast("An error occured while requesting feed");
-//            }
-//        });
-
-        AsyncRssClient asyncRssClient = new AsyncRssClient();
-        asyncRssClient.read("http://feeds.rebuild.fm/rebuildfm", new AsyncRssResponseHandler() {
+        HotEntryClient client = new HotEntryClient();
+        client.request(new HotEntryClient.HotEntryResponseHandler() {
             @Override
-            public void onSuccess(RssFeed rssFeed) {
-                Log.e("debugging", rssFeed.getTitle());
-                Log.e("debugging", rssFeed.getDescription());
-                RssItem rssItem = rssFeed.getRssItems().get(0);
-                Log.e("debugging", rssItem.getTitle());
+            public void onResponse(List<Entry> rssItemList) {
+                setupListView(rssItemList);
             }
 
             @Override
-            public void onFailure(int statusCode, Header[] headers, byte[] responseBody,
-                                  Throwable error) {
+            public void onErrorResponse() {
+                showToast("An error occured while requesting feed");
             }
         });
     }

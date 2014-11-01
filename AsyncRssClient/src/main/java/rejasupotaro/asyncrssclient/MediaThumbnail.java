@@ -2,12 +2,9 @@ package rejasupotaro.asyncrssclient;
 
 import android.net.Uri;
 
-public final class MediaThumbnail {
-
+public class MediaThumbnail {
     private final Uri url;
-
     private final int height;
-
     private final int width;
 
     /**
@@ -37,13 +34,6 @@ public final class MediaThumbnail {
         this.url = url;
         this.height = height;
         this.width = width;
-    }
-
-    /**
-     * Returns the thumbnail's URL as a string.
-     */
-    public String toString() {
-        return url.toString();
     }
 
     /**

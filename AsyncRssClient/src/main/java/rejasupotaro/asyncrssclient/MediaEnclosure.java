@@ -3,11 +3,8 @@ package rejasupotaro.asyncrssclient;
 import android.net.Uri;
 
 public final class MediaEnclosure {
-
-    private final android.net.Uri url;
-
+    private final Uri url;
     private final int length;
-
     private final String mimeType;
 
     /**
@@ -40,6 +37,4 @@ public final class MediaEnclosure {
         this.length = length;
         this.mimeType = mimeType;
     }
-
 }
-
